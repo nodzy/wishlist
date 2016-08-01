@@ -1,0 +1,43 @@
+en:
+  generic_error: "Oops! Something went wrong."
+  back: "Back"
+  copy_link: "Copy public link"
+  edit: "Edit"
+  delete: "Delete"
+  delete_ask: "Are you sure?"
+  delete_confirm: "I'm sure"
+  signed_in_as: "Signed in as"
+  sign_out: "Sign out"
+  index: "My wishlists"
+  gift_reserved: "This gift is already reserved!"
+  gift_to_reserve: "I'll buy it!"
+  reserved: "Unreserve"
+  unreserved: "Not reserved yet"
+  wishlists:
+    index:
+      create_new_wishlist: "Create new wishlist"
+      wishlists_count:
+        zero: "You have no wishlist. You should create some. 😉"
+        one: "You have one wishlist! 🎁"
+        other: "You have %{count} wishlists. Nice! 🎉"
+    create:
+      success: "Wishlist was successfully created!"
+      failure: "Invalid params!"
+    destroy:
+      success: "Wishlist was successfully deleted."
+    update:
+      success: "Wishlist was successfully updated."
+  items:
+    create:
+      success: "Item was successfully created."
+      failure: "Invalid params!"
+    update:
+      success: "Item was successfully updated."
+      failure: "Invalid params!"
+    destroy:
+      success: "Item was successfully deleted."
+  reservations:
+    create:
+      success: "Gift was successfully reserved!"
+    destroy:
+      success: "Reservation was successfully cancelled."

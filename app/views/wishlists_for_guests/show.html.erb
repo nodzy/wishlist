@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 class="wishlist-name"><%= @wishlist.name %></h1>
+
+  <p class="wishlist-description"><%= @wishlist.description %></p>
+
+  <div class="container wishlists-row">
+    <%= render partial: "item", collection: @wishlist.items %>
+  </div>
+</div>

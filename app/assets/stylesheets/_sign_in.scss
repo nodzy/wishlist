@@ -1,0 +1,87 @@
+.border-right {
+  border-right: 1px solid #ccc;
+  height: 0;
+  padding-bottom: 34%;
+}
+
+.header-col-left {
+  margin-bottom: 5%;
+}
+
+.header-col-right {
+  margin-bottom: 2%;
+}
+
+@media (max-width: $screen-xs-max) {
+  .col-margin-top-right {
+    margin-top: 50px;
+  }
+
+  .border-right {
+    border: none;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .col-margin-top-right {
+    margin-top: 5%;
+  }
+
+  .border-right {
+    border: none;
+  }
+}
+
+.col-margin-bottom-right {
+  margin-bottom: 50px;
+}
+
+.slogan {
+  padding-top: 76px;
+  padding-bottom: 15px;
+  text-align: center;
+
+  h1 {
+    font-size: 70px;
+  }
+}
+
+hr.custom-width {
+  width: 60%;
+}
+
+.btn-sign-up {
+  text-align: center;
+  padding-top: 40px;
+}
+
+h3.padding {
+  padding-bottom: 20px;
+}
+
+.input-width {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.custom-check-list:before {
+  content: "✔";
+  margin-left: -1em;
+  margin-right: 10px;
+}
+
+.ul-custom-settings {
+  padding-left: 20px;
+  text-indent: 2px;
+  list-style: none;
+  list-style-position: outside;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.content-in-block {
+  display: inline-block;
+  text-align: left;
+}
